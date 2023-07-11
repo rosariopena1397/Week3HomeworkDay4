@@ -1,0 +1,208 @@
+html, body, div, a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  height: 3100px;
+  width: 2010px;
+  color: #bfbfbf;  
+}
+#problem1 {
+  display: flex;
+  display: box;
+  background-color: black;
+  padding: 2px;
+  width: 100%;
+  height: 800px; 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#leftSide {
+   position: absolute;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 80px;
+    
+    
+  }
+#rightSide {
+   position: absolute;
+    margin-top: 100px;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 0;
+    
+    
+   
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%, -50%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+ .problem2 {
+  display: flex;
+  display: box;
+  display: block;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  left: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+ }
+ .card1 {
+  display: flex;
+  display: block;
+  width: 2010px;
+  height: 500px;
+  background-color: black;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 900px;
+  left: 60px;
+  padding: 0px;
+  margin: -60px 0 0 -60px;
+ }
+ .words1 {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  left: 880px;
+  height: 250Px;
+  width: 900px;
+  border: 5px solid black;
+  top: 80px;
+  
+  
+} 
+ .card2 {
+  display: flex;
+  display: block;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 550px;
+  width: 2010px;
+  display: flex;
+  padding: 0px;
+  background-color: black;
+  position: absolute;
+  top: 905px;
+  right: 8px;
+  margin-top: 435px;
+  left: 5px;
+  
+ }
+ .halfimage1 {
+  display: flex;
+  display: block;
+  display: inline-flex;
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+ }
+ .words2 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-around;
+  height: 250px;
+  width: 900px;
+  border: 5px solid black;
+  bottom: 60px;
+  left: 100px;
+  justify-content: flex-start;
+}
+.problem3 {
+  display: flex;
+  display: box;
+  display: block;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  left: 12px;
+  display: inline-flex;
+  flex-wrap: wrap;
+
+  }
+ 
+ .card3 {
+  display: flex;
+  display: block;
+  width: 2010px;
+  height: 550px;
+  background-color: black;
+  position: absolute;
+  flex-wrap: wrap;
+  top: 2000px;
+  left: 45px;
+  padding: 0px;
+  margin: -55px 0 0 -55px;
+ }
+ .halfimage2 {
+  display: flex;
+  display: block;
+  display: inline-flex;
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+ }
+ .word3 {
+  position: absolute;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-around;
+  left: 100px;
+  height: 250Px;
+  width: 900px;
+  border: 5px solid black;
+  top: 130px; 
+
+} 
+ .card4 {
+  display: flex;
+  display: block;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 2010px;
+  display: flex;
+  padding: 0px;
+  background-color: black;
+  position: absolute;
+  top: 1840px;
+  right: 10px;
+  margin-top: 650px;
+  left: -10px;
+  
+ 
+  
+ }
+ .cooking {
+  display: flex;
+  display: block;
+  display: inline-flex;
+  position: absolute;
+  bottom: 1px;
+  right: 1205px;
+ }
+ 
+ .word4 {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  height: 250px;
+  width: 800px;
+  padding: 1px;
+  border: 5px solid black;
+  bottom: 60px;
+  left: 950px;
+  justify-content: flex-start;
+}
